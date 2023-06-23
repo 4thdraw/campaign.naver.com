@@ -1,0 +1,28 @@
+#hd{
+    //공통클래스로 안하기
+    //태그선택자 피하기
+    .out, 
+    h1 a{
+        background-image: url(https://campaign-cdn.pstatic.net/0/campaign/2023/03/healthychart/img_v2/sp_common.png);
+        -webkit-background-size: 211px 193px;
+        background-size: 211px 193px;       
+        width: 28px;
+        height: 28px;
+    }
+    h1{        
+        a{  
+            display: block; 
+            background-position: -181px -134px;         
+        }
+    }
+    #gnb{
+        li{
+            a{
+
+            }
+        }
+    }
+    .out{       
+        background-position: -181px -68px;       
+    }
+}
