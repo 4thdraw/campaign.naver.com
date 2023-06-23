@@ -1,4 +1,9 @@
+body{
+    font-family: "Noto Sans KR";
+    font-weight: 300;
+}
 #hd{
+    
     //공통클래스로 안하기
     //태그선택자 피하기
     .out, 
@@ -18,6 +23,8 @@
     #gnb{
         li{
             a{
+                text-decoration: none;
+                color:#222;
 
             }
         }
@@ -25,4 +32,35 @@
     .out{       
         background-position: -181px -68px;       
     }
+}
+#banner{
+    border-radius: 26px;
+    background-color: #fe7628;
+    height:580px;
+    margin-top: 62px;
+    .bg-black{
+        background-color: black;
+        border-radius: 35px;
+        padding: 15px 27px;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    h2{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 54px;
+        font-weight: 100;
+        em{
+            font-weight: 700;
+        }
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    span{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
 }
