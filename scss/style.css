@@ -23,10 +23,23 @@ body {
 }
 
 #banner {
+  position: relative;
   border-radius: 26px;
   background-color: #fe7628;
   height: 580px;
   margin-top: 62px;
+}
+#banner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: calc(100% + 80px);
+  background-image: url(https://campaign-cdn.pstatic.net/0/campaign/2023/03/healthychart/img_v2/bg_spot_orange.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
 }
 #banner .bg-black {
   background-color: black;
